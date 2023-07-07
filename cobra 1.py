@@ -1,4 +1,3 @@
-# cobra-lab
 
 class Job:
     def __init__(self,taskId,deadline,profit):
@@ -26,4 +25,4 @@ if __name__ == '__main__':
         profit=int(input("Enter the profit of jobs{}:".format(i+1)))  
         jobs.append(Job(taskId,deadline,profit))
     T=int(input("Enter the time:"))
-    schdulejobs(jobs,T
+    schdulejobs(jobs,T)
